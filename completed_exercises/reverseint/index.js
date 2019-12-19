@@ -8,6 +8,9 @@
 //   reverseInt(-15) === -51
 //   reverseInt(-90) === -9
 
+// 19/12/19:
+// return Math.sign(n) * parseInt(n.toString().split('').reverse().join(''))
+
 function reverseInt(n) {
   const reversed = n
     .toString()
